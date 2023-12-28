@@ -278,3 +278,7 @@ docker container prune
 docker volume prune -f --filter label="com.example.vendor"="Big Star Collectibles"
 
 docker system prune --volumes -f
+
+** To go inside docker **
+docker ps
+docker exec -it [NAME|ID] sh
